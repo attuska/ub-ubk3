@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+xonotic-v${UB_VERSION}.tar.gz darkplaces-xonotic-v${UB_VERSION}/
+	https://github.com/xonotic/darkplaces/archive/refs/tags/

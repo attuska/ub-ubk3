@@ -1,0 +1,16 @@
+dbus-dev
+gdl-dev
+gnome-dictionary
+gsettings-desktop-schemas
+gspell-dev
+gtk-dev
+gtksourceview4-dev
+gucharmap-dev
+intltool
+iso-codes
+itstool
+json-glib-dev
+libgda-dev
+libpeas-dev
+libsecret-dev
+libsoup-dev

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz importlib_resources-${UB_VERSION}/
+	https://github.com/python/importlib_resources/archive/refs/tags/

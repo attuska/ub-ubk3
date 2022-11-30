@@ -1,0 +1,17 @@
+db4-dev
+gobject-introspection-dev
+intltool
+iso-codes
+itstool
+json-glib-dev
+libgee-dev
+libsecret-dev
+libsoup-dev
+libxslt-dev
+mysql-dev
+ncurses-dev
+openldap-dev
+postgresql-dev
+sqlite-dev
+vala-dev
+yelp-tools

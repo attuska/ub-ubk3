@@ -1,0 +1,7 @@
+bash-completion
+dbus-dev
+gtk-dev
+intltool
+libxml2-dev
+libxslt
+vala-dev

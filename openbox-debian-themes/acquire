@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+openbox-themes-${UB_VERSION}-4-any.pkg.tar.xz  usr/ :usr
+	http://archlinux.arkena.net/archive/packages/o/openbox-themes/

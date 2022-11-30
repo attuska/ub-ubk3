@@ -1,0 +1,10 @@
+dbus-dev
+dbus-glib-dev
+itstool
+librsvg-dev
+libsm-dev
+libxml2-dev
+libxslt-dev
+pcre2-dev
+vte-dev
+xmlto

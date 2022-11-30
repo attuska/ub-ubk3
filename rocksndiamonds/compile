@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+export BASE_PATH=/usr/share/games/rocksndiamonds
+ub_compile

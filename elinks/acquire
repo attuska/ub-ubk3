@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz elinks-${UB_VERSION}/
+	https://github.com/rkd77/elinks/archive/

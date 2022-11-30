@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz p7zip-${UB_VERSION}/
+	https://github.com/jinfeihan57/p7zip/archive/

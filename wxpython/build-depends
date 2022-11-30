@@ -1,0 +1,14 @@
+cppunit-dev
+glu-dev
+gtk2-dev
+gtk-dev
+libjpeg-turbo-dev
+libnotify-dev
+libpng-dev
+libsm-dev
+libtiff-dev
+mesa-dev
+python2-dev
+sdl-dev
+webkit2gtk-dev
+wxwidgets3.0-dev

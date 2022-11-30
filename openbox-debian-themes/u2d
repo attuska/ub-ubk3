@@ -1,0 +1,1 @@
+urllist http://archlinux.arkena.net/archive/packages/o/openbox-themes/ | grep openbox | sort -V | tail -n 1 | sed s/openbox-themes-// | sed s/-.*//

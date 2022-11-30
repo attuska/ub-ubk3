@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+vdr-plugin-vaapidevice-${UB_VERSION}.tar.gz vdr-plugin-vaapidevice-d19657b/
+	git+https://github.com/pesintta/vdr-plugin-vaapidevice.git@d19657b

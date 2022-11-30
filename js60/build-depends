@@ -1,0 +1,14 @@
+autoconf2.13
+hunspell-dev
+icu-dev
+libedit-dev
+libffi-dev
+libjpeg-turbo-dev
+libpng-dev
+libvpx-dev
+nspr-dev
+nss-dev
+python2-dev
+readline-dev
+sqlite-dev
+zip

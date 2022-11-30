@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz squirrel-${UB_VERSION}/
+	https://github.com/albertodemichelis/squirrel/archive/refs/tags/

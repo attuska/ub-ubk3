@@ -1,0 +1,12 @@
+autoconf2.13
+libedit-dev
+libffi-dev
+libpng-dev
+llvm
+llvm-libs
+nspr-dev
+nss-dev
+readline-dev
+rust
+sqlite-dev
+zip

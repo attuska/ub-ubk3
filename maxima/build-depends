@@ -1,0 +1,5 @@
+libsigsegv-dev
+libx11-dev
+sbcl
+tcl-dev
+tk-dev

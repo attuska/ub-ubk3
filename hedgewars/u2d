@@ -1,0 +1,2 @@
+#geturl https://www.hedgewars.org/download.html | grep .tar | sed s/.*-//g | sed s/\.tar.*//g | sort -V | tail -n1
+noupdate legalább SDL2 2.1 kellene, a 2.0 nem elég.

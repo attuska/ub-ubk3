@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+vavoom-${UB_VERSION}.tar.gz vavoom-e561299/
+	git+https://github.com/janisl/vavoom.git@e561299

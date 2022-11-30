@@ -1,0 +1,15 @@
+glade-dev
+gobject-introspection
+gsettings-desktop-schemas
+gtksourceview-dev
+gtkspell-dev
+intltool
+json-glib-dev
+libdazzle-dev
+libgee-dev
+libgit2-glib-dev
+libpeas-dev
+libsecret-dev
+libsoup-dev
+python-pygobject-dev
+vala-dev

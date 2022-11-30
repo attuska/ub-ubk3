@@ -1,0 +1,9 @@
+amtk-dev
+appstream-glib-dev
+gobject-introspection-dev
+gtk-dev
+intltool
+itstool
+libxslt
+systemd-dev
+webkit2gtk-dev

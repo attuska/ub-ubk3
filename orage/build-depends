@@ -1,0 +1,11 @@
+expat-dev
+gtk2-dev
+intltool
+libnotify-dev
+libsm-dev
+libxfce4ui-dev
+popt-dev
+startup-notification-dev
+xcb-util-dev
+xfce4-panel-dev
+xfconf-dev

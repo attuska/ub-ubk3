@@ -1,0 +1,6 @@
+cairo-dev
+gdk-pixbuf-dev
+libev-dev
+libxkbcommon-dev
+xcb-util-image-dev
+xcb-util-xrm-dev

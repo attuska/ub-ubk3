@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+export CXXFLAGS+=' -I/usr/include/bullet/TinyAudio '
+ub_compile \
+    -DMOD_GTK2=OFF

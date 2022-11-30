@@ -1,0 +1,2 @@
+ver=$(u2dsubdir https://download.kde.org/stable/frameworks/ kcodecs-)
+echo 1:$ver

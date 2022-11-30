@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+popt-${UB_VERSION}.tar.gz popt-${UB_VERSION}/
+	https://ftp.openbsd.org/pub/OpenBSD/distfiles/

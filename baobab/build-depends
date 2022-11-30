@@ -1,0 +1,6 @@
+gobject-introspection-dev
+gtk-dev
+intltool
+itstool
+libgtop2-dev
+vala-dev

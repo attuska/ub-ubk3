@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+accountsservice-${UB_VERSION}.tar.gz accountsservice-${UB_VERSION}/
+    https://gitlab.freedesktop.org/accountsservice/accountsservice/-/archive/${UB_VERSION}/

@@ -1,0 +1,6 @@
+gdk-pixbuf-dev
+gobject-introspection-dev
+intltool
+itstool
+python3-pygobject
+sqlite-dev

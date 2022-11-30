@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION/./_}.tar.gz faac-${UB_VERSION/./_}/
+	https://github.com/knik0/faac/archive/

@@ -1,0 +1,30 @@
+#!/bin/sh -eux
+
+make \
+    prefix=usr \
+    MANDIR="$UB_INSTALLDIR"/usr/share/man \
+	install
+
+# attr
+for i in fgetxattr flistxattr fremovexattr fsetxattr getxattr \
+  lgetxattr listxattr llistxattr lremovexattr lsetxattr \
+  removexattr setxattr; do
+	rm -f "$UB_INSTALLDIR"/usr/share/man/man2/$i.2
+done
+
+# libcap
+for i in capget capset; do
+	rm -f "$UB_INSTALLDIR"/usr/share/man/man2/$i.2
+done
+
+# shadow
+rm -f "$UB_INSTALLDIR"/usr/share/man/man5/passwd.5
+
+# lirc szállít újabbat
+rm -f "$UB_INSTALLDIR"/usr/share/man/man4/lirc.4
+
+rm -f "$UB_INSTALLDIR"/usr/share/man/man5/tzfile.5
+rm -f "$UB_INSTALLDIR"/usr/share/man/man8/{tzselect,zdump,zic}.8
+
+# keyutils
+rm -f "$UB_INSTALLDIR"/usr/share/man/man7/{keyrings,persistent-keyring,process-keyring,session-keyring,thread-keyring,user-keyring,user-session-keyring}.7

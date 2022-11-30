@@ -1,0 +1,6 @@
+#!/bin/sh -eux
+
+cd ld10k1
+autoreconf -vif
+cd ..
+ub_make configure

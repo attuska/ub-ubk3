@@ -1,0 +1,6 @@
+groff
+libxmu-dev
+libxp-dev
+openmotif-dev
+openssl-dev
+tzdata

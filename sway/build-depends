@@ -1,0 +1,13 @@
+cairo-dev
+gdk-pixbuf-dev
+json-c-dev
+libevdev-dev
+libinput-dev
+libxkbcommon-dev
+pango-dev
+pcre-dev
+scdoc
+swaybg
+systemd-dev
+wayland-protocols
+wlroots-dev

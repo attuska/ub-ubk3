@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz enet-${UB_VERSION}/
+	https://github.com/lsalzman/enet/archive/refs/tags/

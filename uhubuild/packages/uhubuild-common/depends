@@ -1,0 +1,19 @@
+apt >=
+coreutils
+cpp
+diffutils
+dl
+dpkg
+findutils
+gawk
+grep
+gzip
+hunspell
+hunspell-hu
+inetutils
+lynx
+pretendroot
+sed
+shadow
+tar
+uhu-base

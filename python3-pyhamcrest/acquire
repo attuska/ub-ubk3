@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+V${UB_VERSION}.tar.gz PyHamcrest-${UB_VERSION}/
+	https://github.com/hamcrest/PyHamcrest/archive/

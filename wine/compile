@@ -1,0 +1,16 @@
+#!/bin/sh -eux
+
+ub_compile \
+    --libdir=/usr/lib \
+    --disable-win16 \
+    --enable-win64 \
+	--without-hal \
+	--without-openal \
+	--without-opencl \
+	--without-oss \
+	--without-capi \
+	--without-tiff \
+	--without-mpg123 \
+	--without-sane \
+	--without-netapi \
+	--with-dbus

@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+#git clone https://github.com/GNOME/libgnome-volume-control.git@43be5d2 subprojects/gvc
+git clone https://github.com/getsolus/budgie-translations.git subprojects/translations
+
+ub_compile \
+	-Dwith-gtk-doc=false

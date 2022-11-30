@@ -1,0 +1,10 @@
+#!/bin/sh -eux
+
+ub_replace -O3 -O2 deps/Makefile
+ub_replace -O3 -O2 deps/jemalloc/configure
+ub_replace -O3 -O2 deps/jemalloc/configure.ac
+ub_replace -O3 -O2 deps/hiredis/Makefile
+export CFLAGS+=' -fPIC '
+export BUILD_WITH_SYSTEMD=yes
+export BUILD_TLS=yes
+ub_compile

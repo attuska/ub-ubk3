@@ -1,0 +1,2 @@
+dir=$(urllist http://www.squid-cache.org/Versions/ | grep ^v | sort -V | tail -n 1)
+urllist http://www.squid-cache.org/Versions/$dir/ | grep tar | sort -V | tail -n 1 | sed 's/\-r/~r/g' | sed 's/\-2/~2/g' | sed s/squid-//g | sed s/\.tar.*//g

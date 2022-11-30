@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+bsdiff-${UB_VERSION}.tar.gz bsdiff-${UB_VERSION}/
+	https://distfiles.macports.org/bsdiff/

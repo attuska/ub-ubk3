@@ -1,0 +1,13 @@
+#!/bin/sh -eux
+
+mkdir build
+cd build
+    cmake \
+	-DDESIRED_QT_VERSION=5 \
+	-DCMAKE_PREFIX_PATH=/usr/lib/qt5 \
+	-DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="/usr" \
+    -DUSE_SYSTEM_TINYXML=ON \
+    -DOPENMW_USE_SYSTEM_MYGUI=OFF \
+    ..
+ub_make

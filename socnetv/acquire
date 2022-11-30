@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v$UB_VERSION.tar.gz app-$UB_VERSION/
+	https://github.com/socnetv/app/archive/

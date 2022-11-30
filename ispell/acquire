@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+ispell-${UB_VERSION}.tar.gz ispell-${UB_VERSION}/
+    http://cjj.kr.distfiles.macports.org/ispell/

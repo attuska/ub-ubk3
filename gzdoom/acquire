@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+g${UB_VERSION}.tar.gz gzdoom-g${UB_VERSION}/
+    https://github.com/coelckers/gzdoom/archive/

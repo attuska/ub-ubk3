@@ -1,0 +1,11 @@
+#!/usr/bin/env dl
+
+inkscape-INKSCAPE_${UB_VERSION//./_}.tar.bz2 inkscape-INKSCAPE_${UB_VERSION//./_}/
+    https://gitlab.com/inkscape/inkscape/-/archive/INKSCAPE_${UB_VERSION//./_}/
+
+lib2geom-${UB_VERSION_HEAD2}.tar.bz2 lib2geom-${UB_VERSION_HEAD2}/ :src/3rdparty/2geom
+	https://gitlab.com/inkscape/lib2geom/-/archive/${UB_VERSION_HEAD2}/
+
+extensions-EXTENSIONS_AT_INKSCAPE_${UB_VERSION}.tar.bz2 extensions-EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/ :share/extensions
+    https://gitlab.com/Moini/extensions/-/archive/EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/
+    https://gitlab.com/jurgeng/inkscape-extensions/-/archive/EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/

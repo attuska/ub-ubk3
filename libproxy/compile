@@ -1,0 +1,10 @@
+#!/bin/sh -eux
+
+mkdir build
+cd build
+cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DWITH_WEBKIT3:BOOL=ON \
+..
+ub_make

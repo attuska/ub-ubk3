@@ -1,0 +1,13 @@
+clutter-gst-dev
+clutter-gtk-dev
+evince-dev
+gjs-dev
+gobject-introspection-dev
+gtksourceview4-dev
+intltool
+itstool
+libcap-dev
+libgudev-dev
+libmusicbrainz-dev
+wayland-dev
+webkit2gtk-dev

@@ -1,0 +1,62 @@
+diff -Nur orig/settings.conf mod/settings.conf
+--- orig/settings.conf	2019-08-07 12:58:22.000000000 +0200
++++ mod/settings.conf	2019-08-21 20:41:59.426795015 +0200
+@@ -87,44 +87,30 @@
+ sequence:
+ - show:
+   - welcome
+-#  - dummypythonqt
+   - locale
+   - keyboard
+   - partition
+   - users
+-#  - tracking
++  - netinstall
+   - summary
+ - exec:
+-#  - dummycpp
+-#  - dummyprocess
+-#  - dummypython
+-#  - dummypythonqt
+   - partition
+   - mount
+-  - unpackfs
++  - chrootcfg
++  - networkcfg
++  - packages
+   - machineid
+   - fstab
+   - locale
+-  - keyboard
+   - localecfg
+-#  - luksbootkeyfile
+-#  - luksopenswaphookcfg
+-#  - dracutlukscfg
+-#  - plymouthcfg
+-  - initcpiocfg
+-  - initcpio
+   - users
+   - displaymanager
+-  - networkcfg
+   - hwclock
+-  - services-systemd
+-#  - dracut
+-  - initramfs
+-#  - grubcfg
++  - dracut
++  - grubcfg
+   - bootloader
+   - umount
+ - show:
+-#  - webview@owncloud
+   - finished
+ 
+ # A branding component is a directory, either in SHARE/calamares/branding or
+@@ -189,3 +175,7 @@
+ #
+ # YAML: boolean.
+ disable-cancel-during-exec: false
++
++packageOperations:
++  -install
++  -remove

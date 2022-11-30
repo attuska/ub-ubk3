@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+thunar-thumbnailers-${UB_VERSION}.tar.bz2 thunar-thumbnailers-${UB_VERSION}/
+	https://archive.xfce.org/src/archive/thunar-thumbnailers/${UB_VERSION_HEAD2}/

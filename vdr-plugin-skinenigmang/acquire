@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz vdr-plugin-skinenigmang-${UB_VERSION}/
+	https://github.com/vdr-projects/vdr-plugin-skinenigmang/archive/refs/tags/

@@ -1,0 +1,3 @@
+#urllist https://github.com/0install/0install/tags/ | grep v2.3 | grep tar | sed s/v//g | sed s/\.tar.*//g | sort -V | tail -n 1
+
+noupdate UHU esetében nem használható.

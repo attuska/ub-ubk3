@@ -1,0 +1,8 @@
+alsa-lib
+gconf2
+gtk2
+libxcursor
+libxrandr
+libxscrnsaver
+node
+nss-dev

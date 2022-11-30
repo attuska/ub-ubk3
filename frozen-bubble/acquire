@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz frozen-bubble-${UB_VERSION}/
+	https://github.com/kthakore/frozen-bubble/archive/refs/tags/

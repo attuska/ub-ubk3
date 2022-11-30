@@ -1,0 +1,7 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz lmms-${UB_VERSION}/
+	https://github.com/LMMS/lmms/archive/
+
+1.4.1.tar.gz rpmalloc-1.4.1/ :src/3rdparty/rpmalloc/rpmalloc
+	https://github.com/mjansson/rpmalloc/archive/

@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+export QTDIR="/usr/lib/qt5"
+export CMAKE_PREFIX_PATH=/usr/lib/qt5
+sh bootStrap.bash \
+    --with-system-libmad \
+    --with-system-liba52

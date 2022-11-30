@@ -1,0 +1,21 @@
+diff -Nur orig/fvwm/preferences/Startup mod/fvwm/preferences/Startup
+--- orig/fvwm/preferences/Startup	2020-12-13 12:27:07.000000000 +0100
++++ mod/fvwm/preferences/Startup	2022-11-25 12:11:32.959069132 +0100
+@@ -2,6 +2,17 @@
+ 
+ AddToFunc StartFunction
+ 
++# Polkit ügynök. Csak egy lehet a telepítettek közül!
++#+ I Test (Init) Exec /usr/libexec/polkit-mate-authentication-agent-1
++#+ I Test (Init) Exec /usr/libexec/lxpolkit
++#+ I Test (Init) Exec /usr/libexec/polkit-gnome-authentication-agent-1
++#+ I Test (Init) Exec /usr/libexec/polkit-mate-authentication-agent-1
++#+ I Test (Init) Exec /usr/lib/libexec/polkit-kde-authentication-agent-1
++
++# képernyővédő
++#+ I Test (Init) Exec xscreensaver
+++
++
+ # Launch GKrellM, only if it doesn't run
+ #+ I Test (Init) Test (x gkrellm) Exec pidof gkrellm || exec gkrellm
+ 

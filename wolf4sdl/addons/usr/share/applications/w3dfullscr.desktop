@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=W3dfullscreen
+Comment=SDL-Port of Wolfenstein 3-D and Spear of Destiny
+Icon=wolf4sdl
+TryExec=w3dfullscr
+Exec=w3dfullscr
+Categories=Game;ActionGame;

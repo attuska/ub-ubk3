@@ -1,0 +1,16 @@
+boost-dev
+curl-dev
+docbook-dtds
+docbook-xsl
+geoclue-dev
+gexiv2-dev
+gnome-doc-utils
+gpsd-dev
+gtk-dev
+intltool
+itstool
+json-glib-dev
+libexif-dev
+liboauth-dev
+nettle-dev
+sqlite-dev

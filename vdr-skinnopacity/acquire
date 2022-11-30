@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+SkinNopacity-${UB_VERSION}.tar.bz2 SkinNopacity-${UB_VERSION}/
+	https://gitlab.com/kamel5/SkinNopacity/-/archive/${UB_VERSION}/

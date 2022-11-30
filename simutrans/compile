@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+cp config.template config.default
+make VERBOSE=1 BACKEND=sdl2 OSTYPE=linux USE_FLUIDSYNTH_MIDI=1

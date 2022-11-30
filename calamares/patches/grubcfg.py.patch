@@ -1,0 +1,12 @@
+diff -Naur orig/src/modules/grubcfg/main.py patched/src/modules/grubcfg/main.py
+--- orig/src/modules/grubcfg/main.py	2019-07-06 00:52:35.000000000 +0200
++++ patched/src/modules/grubcfg/main.py	2019-07-31 12:54:08.540244781 +0200
+@@ -105,7 +105,7 @@
+                         )
+                 ]
+ 
+-    kernel_params = ["quiet"]
++    kernel_params = []
+ 
+     if cryptdevice_params:
+         kernel_params.extend(cryptdevice_params)

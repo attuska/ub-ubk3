@@ -1,0 +1,25 @@
+diff -Nur orig/data/start mod/data/start
+--- orig/data/start	2021-12-03 20:13:43.000000000 +0100
++++ mod/data/start	2022-11-25 13:58:43.817057808 +0100
+@@ -16,3 +16,21 @@
+ # There's probably a few other good uses for it, too. I mainly pushed for it
+ # because when I was doing fluxbox's docs, people used to complain that there
+ # wasn't one, and I wanted to avoid that for pekwm. ;) --eyez
++
++#panel
++#bmpanel2 &
++#pekwm_panel &
++
++#háttérkép
++#pekwm_bg Image /usr/share/backgrounds/UHU/ubk3.png#scaled &
++#hsetroot -fill /usr/share/backgrounds/UHU/uhu_linux_ubk.jpg
++
++#polkit ügynökök, ki kell választani azt, amelyik van. Csak egy lehet!
++#/usr/libexec/lxpolkit
++#/usr/libexec/polkit-gnome-authentication-agent-1 &
++#/usr/libexec/polkit-mate-authentication-agent-1 &
++#/usr/lib/libexec/polkit-kde-authentication-agent-1
++
++#network applet csak a bmpanel2-vel megy!
++#sleep 1 &&
++#nm-applet &

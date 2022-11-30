@@ -1,0 +1,14 @@
+diff -Naur orig/src/modules/grubcfg/grubcfg.conf patched/src/modules/grubcfg/grubcfg.conf
+--- orig/src/modules/grubcfg/grubcfg.conf	2019-07-06 00:52:35.000000000 +0200
++++ patched/src/modules/grubcfg/grubcfg.conf	2019-07-31 12:51:00.101819783 +0200
+@@ -20,6 +20,9 @@
+ defaults:
+     GRUB_TIMEOUT: 5
+     GRUB_DEFAULT: "saved"
+-    GRUB_DISABLE_SUBMENU: true
++    GRUB_DISABLE_LINUX_UUID: "false"
++    GRUB_GFXMODE: "auto"
++    GRUB_GFXPAYLOAD_LINUX: "keep"
+     GRUB_TERMINAL_OUTPUT: "console"
+     GRUB_DISABLE_RECOVERY: true
++    GRUB_BACKGROUND: "/usr/share/backgrounds/UHU/uhu-grub-bg.png"

@@ -1,0 +1,17 @@
+appdata-tools
+dconf-dev
+docbook-dtds
+docbook-xsl
+gconf2-dev
+gnome-shell
+gnutls-dev
+gsettings-desktop-schemas
+gtk-dev
+intltool
+itstool
+libsm-dev
+nautilus-dev
+nettle-dev
+pcre2-dev
+vala-dev
+vte-dev

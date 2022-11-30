@@ -1,0 +1,5 @@
+cairo-dev
+gdk-pixbuf-dev
+scdoc
+wayland-dev
+wayland-protocols

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+fluxbox-${UB_VERSION}.tar.gz fluxbox-9d8202f/
+	git+https://github.com/fluxbox/fluxbox.git@9d8202f

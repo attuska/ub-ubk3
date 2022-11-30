@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+unarj-${UB_VERSION}.tgz unarj-${UB_VERSION}/
+    http://ftp.mik.uni-pannon.hu/gentoo/distfiles/b2/

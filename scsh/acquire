@@ -1,0 +1,7 @@
+#!/usr/bin/env dl
+
+114432435e4eadd54334df6b37fcae505079b49f.tar.gz scsh-114432435e4eadd54334df6b37fcae505079b49f/
+	https://github.com/scheme/scsh/archive/
+
+d3231ad13de2b44e3ee173b1c9d09ff165e8b6d5.tar.gz	rx-d3231ad13de2b44e3ee173b1c9d09ff165e8b6d5/ :rx
+	https://github.com/scheme/rx/archive/

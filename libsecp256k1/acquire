@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+libsecp256k1_0.1~${UB_VERSION}.orig.tar.xz libsecp256k1-0.1~${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/libs/libsecp256k1/

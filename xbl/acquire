@@ -1,0 +1,5 @@
+#!/usr/bin/env dl
+
+xbl-${UB_VERSION}.tar.gz xbl-${UB_VERSION}/
+    https://archive.netbsd.org/pub/pkgsrc-archive/distfiles/2010Q3/
+#    http://www710.univ-lyon1.fr/~exco/XBL/

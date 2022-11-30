@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+lilypond-${UB_VERSION}.tar.gz lilypond-${UB_VERSION}/
+	https://lilypond.org/download/sources/v${UB_VERSION_HEAD2}/

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+sk1-${UB_VERSION/~/}.archlinux.pkgbuild.zip sk1-${UB_VERSION/~/}_20210831.tar.gz sk1-2.0rc5/
+	https://downloads.sk1project.net/sk1/ArchLinux/

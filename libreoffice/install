@@ -1,0 +1,28 @@
+#!/bin/sh -eux
+
+mkdir -p $UB_INSTALLDIR/usr/share/{applications,icons,metainfo,mime,desktop-directories}
+mv opt lib
+mv lib/libreoffice* lib/libreoffice
+mv usr/share/{icons,metainfo,mime} ${UB_INSTALLDIR}/usr/share/
+
+# nem kell java
+rm lib/libreoffice/program/libofficebean.so
+
+# desktopok
+
+sed /Categories/d -i lib/libreoffice/share/xdg/*.desktop
+cp lib/libreoffice/share/xdg/*.desktop $UB_INSTALLDIR/usr/share/applications/
+
+#menü
+
+cat >"$UB_INSTALLDIR"/usr/share/desktop-directories/Libreoffice.directory <<EOF
+[Desktop Entry]
+Encoding=UTF-8
+Type=Directory
+Name=Libreoffice
+Icon=libreoffice${UB_VERSION_HEAD2}-startcenter
+EOF
+
+mv lib/* $UB_INSTALLDIR/usr/lib/
+ln -s /usr/lib/libreoffice/program/soffice ${UB_INSTALLDIR}/usr/bin/libreoffice
+ln -s /usr/lib/libreoffice/program/soffice ${UB_INSTALLDIR}/usr/bin/libreoffice${UB_VERSION_HEAD2}

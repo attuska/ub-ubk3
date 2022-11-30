@@ -1,0 +1,9 @@
+check-dev
+graphviz-dev
+gtk-dev
+libevdev-dev
+libgudev-dev
+libwacom-dev
+mtdev-dev
+systemd-dev
+valgrind

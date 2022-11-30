@@ -1,0 +1,6 @@
+ghc
+happy
+alex
+uusi
+data-default-class
+haskell-setlocale

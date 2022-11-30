@@ -1,0 +1,16 @@
+libtinyxml2
+musl
+pam-chroot
+pam-smb
+pam-krb5
+pam-mysql
+pam-ssh
+pam-ldap
+pam-usb
+xcursorgen
+obexfs
+opensc
+sdl2-net
+anjuta-extras
+evolution-ews
+freshplayerplugin

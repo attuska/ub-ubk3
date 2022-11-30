@@ -1,0 +1,9 @@
+glu-dev
+libxt-dev
+physfs-dev
+python3-importlib-metadata
+scons
+sdl2-dev
+sdl2-image-dev
+sdl2-mixer-dev
+sdl2-net-dev

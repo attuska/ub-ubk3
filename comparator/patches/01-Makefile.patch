@@ -1,0 +1,48 @@
+diff -Nur orig/Makefile mod/Makefile
+--- orig/Makefile	2022-01-29 01:59:09.000000000 +0100
++++ mod/Makefile	2022-04-24 17:53:02.748413160 +0200
+@@ -12,7 +12,7 @@
+ EXTRAS  = shredtree.py shredcompare.py
+ TEST    = test
+ SOURCES = $(CODE) $(SCRIPTS) $(DOCS) $(EXTRAS) $(TEST) Makefile
+-CFLAGS  = -O3
++CFLAGS  = -O2
+ LDFLAGS = 
+ 
+ all: comparator comparator.1
+@@ -31,7 +31,7 @@
+ 	$(CC) $(CFLAGS) main.o hash.o linebyline.o shredtree.o report.o $(LDFLAGS) -o comparator
+ 
+ hashtab.h: hashgen.py
+-	./hashgen.py >hashtab.h
++	python3 hashgen.py >hashtab.h
+ 
+ linebyline: linebyline.c
+ 	$(CC) -DTEST $(CFLAGS) -o linebyline linebyline.c
+@@ -83,17 +83,17 @@
+ 	done
+ 
+ install: comparator.1 uninstall
+-	install -m 755 -o 0 -g 0 -d $(ROOT)/usr/bin/
+-	install -m 755 -o 0 -g 0 comparator $(ROOT)/usr/bin/comparator
+-	install -m 755 -o 0 -g 0 filterator $(ROOT)/usr/bin/filterator
+-	install -m 755 -o 0 -g 0 -d $(ROOT)/usr/share/man/man1/
+-	install -m 755 -o 0 -g 0 comparator.1 $(ROOT)/usr/share/man/man1/comparator.1
+-	python3 setup.py install
++	install -m 755 -o 0 -g 0 -d $(DESTDIR)/usr/bin/
++	install -m 755 -o 0 -g 0 comparator $(DESTDIR)/usr/bin/comparator
++	install -m 755 -o 0 -g 0 filterator $(DESTDIR)/usr/bin/filterator
++	install -m 755 -o 0 -g 0 -d $(DESTDIR)/usr/share/man/man1/
++	install -m 755 -o 0 -g 0 comparator.1 $(DESTDIR)/usr/share/man/man1/comparator.1
++	python3 setup.py install --root=${UB_INSTALLDIR}
+ 
+ uninstall:
+-	rm -f ${ROOT}/usr/bin/comparator 
+-	rm -f ${ROOT}/usr/bin/filterator 
+-	rm -f ${ROOT}/usr/share/man/man1/comparator.1
++	rm -f ${DESTDIR}/usr/bin/comparator 
++	rm -f ${DESTDIR}/usr/bin/filterator 
++	rm -f ${DESTDIR}/usr/share/man/man1/comparator.1
+ 	#python3 setup.py uninstall
+ 
+ comparator-$(VERS).tar.gz: $(SOURCES) comparator.1

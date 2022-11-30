@@ -1,0 +1,4 @@
+uhubuild-common >= ver
+uhubuild-here >= ver
+uhubuild-under-chroot >= ver
+uhu-pkgutils >=

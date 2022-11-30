@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+vbetool-${UB_VERSION}.tar.gz vbetool-${UB_VERSION}/
+	https://mirror.wheel.sk/slackware/slackware-current/source/ap/vbetool/

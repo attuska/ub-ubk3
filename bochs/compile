@@ -1,0 +1,36 @@
+#!/bin/sh -eux
+
+# 4.X kernel is basically 3.20
+sed -i 's/2\.6\*|3\.\*)/2.6*|3.*|4.*)/' configure*
+
+ub_configure \
+	--disable-docbook \
+	--enable-cpu-level=6 \
+	--enable-ne2000 \
+	--enable-pci \
+	--enable-usb \
+	--enable-repeat-speedups \
+	--enable-fast-function-calls \
+	--enable-disasm \
+	--enable-readline \
+	--enable-fpu \
+	--enable-3dnow \
+	--enable-x86-64 \
+	--enable-debugger \
+	--enable-cdrom \
+	--enable-sb16=linux \
+	--enable-gameport \
+	--enable-smp \
+	--enable-avx \
+	--enable-xpm \
+	--enable-clgd54xx \
+	--with-x11 \
+	--with-x \
+	--with-term \
+	--without-wx \
+	--enable-evex \
+	--enable-long-phy-address \
+	--enable-pcidev \
+
+sed -i 's/^LIBS = /LIBS = -lpthread/g' Makefile
+make -j 1

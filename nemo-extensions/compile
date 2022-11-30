@@ -1,0 +1,18 @@
+#!/bin/sh -eux
+
+extensions="
+nemo-python
+nemo-dropbox
+nemo-fileroller
+nemo-image-converter
+nemo-preview
+nemo-repairer
+nemo-seahorse
+nemo-share
+nemo-terminal"
+
+for progs in ${extensions}; do
+cd $progs
+ub_compile
+cd ..
+done

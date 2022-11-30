@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+autoreconf -vif
+ub_configure \
+	--disable-version-check
+ub_make \
+	datagamesdir=/usr/share/games/quadra

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+Class-Accessor-${UB_VERSION}.tar.gz Class-Accessor-${UB_VERSION}/
+	https://www.cpan.org/modules/by-module/Class/

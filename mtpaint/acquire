@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+mtpaint-${UB_VERSION}.tar.gz mtPaint-4ea607e/
+	git+https://github.com/wjaguar/mtPaint.git@4ea607e

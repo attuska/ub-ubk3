@@ -1,0 +1,24 @@
+#!/bin/sh -eux
+
+# ismert DM-ek: gdmflexiserver, kdmctl, lxdm, lightdm (dm-tool)
+# image directory defaults: /usr/share/backgrounds/images/, /usr/share/wallpapers/
+
+export RPM_PACKAGE_VERSION=no
+ub_compile \
+	--with-pam \
+	--without-shadow \
+	--without-kerberos \
+    --with-browser=xdg-open \
+    --with-systemd \
+	--with-login-manager=no \
+	--with-gtk \
+	--with-gl \
+	--without-gle \
+	--with-pixbuf \
+    --disable-locking \
+	--with-image-directory=no \
+	--with-text-file=no \
+	--without-readdisplay \
+	--with-setuid-hacks \
+	--with-proc-interrupts \
+	--with-jpeg

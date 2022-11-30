@@ -1,0 +1,12 @@
+dbus-glib-dev
+docbook-dtds
+docbook-xsl
+gobject-introspection-dev
+intltool
+libgudev-dev
+libmbim-dev
+libqmi-dev
+polkit-dev
+ppp-dev
+systemd-dev
+vala-dev

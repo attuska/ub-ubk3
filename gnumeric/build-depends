@@ -1,0 +1,11 @@
+gobject-introspection-dev
+goffice-dev
+gtk-dev
+intltool
+itstool
+librsvg-dev
+libxslt-dev
+python2-dev
+python-pygobject-dev
+yelp
+yelp-tools

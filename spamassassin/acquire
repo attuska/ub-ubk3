@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+Mail-SpamAssassin-${UB_VERSION}.tar.gz Mail-SpamAssassin-${UB_VERSION}/
+    https://ftp.fau.de/apache/spamassassin/source/

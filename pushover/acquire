@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+pushover_${UB_VERSION}+git20180909.orig.tar.gz pushover-${UB_VERSION}+git20180909/
+    http://ftp.debian.org/debian/pool/main/p/pushover/

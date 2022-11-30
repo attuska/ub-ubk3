@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+ub_make PKCS11_INC="$UB_COMPILEDIR/pkcs-2.20" \
+    TC_EXTRA_LFLAGS+="-ldl" \
+    TC_EXTRA_CXXFLAGS=" -Wno-deprecated-declarations "

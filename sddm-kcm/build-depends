@@ -1,0 +1,11 @@
+extra-cmake-modules
+karchive-dev
+kauth-dev
+kconfigwidgets-dev
+kcoreaddons-dev
+ki18n-dev
+kio-dev
+knewstuff-dev
+kxmlgui-dev
+qt5-dev
+xcb-util-image-dev

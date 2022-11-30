@@ -1,0 +1,2 @@
+urllist http://git.tvdr.de/?p=vdr.git | sed s/?.*//g | grep [0-9] | sort -V | tail -n 1
+#urllist http://git.tvdr.de/?p=vdr.git;h=refs/heads/stable/2.6

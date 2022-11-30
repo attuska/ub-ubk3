@@ -1,0 +1,6 @@
+string=$(curl -s -k https://sourceforge.net/p/xmlrpc-c/code/HEAD/tree/trunk/version.mk?format=raw | grep RELEASE)
+MAJOR=$(echo $string | sed 's/.*MAJOR_RELEASE = //' | sed 's/ .*//')
+MINOR=$(echo $string | sed 's/.*MINOR_RELEASE = //' | sed 's/ .*//')
+POINT=$(echo $string | sed 's/.*POINT_RELEASE = //')
+echo "$MAJOR.$MINOR.$POINT"
+#urllist https://sourceforge.net/p/xmlrpc-c/code/HEAD/tree/trunk/version.mk

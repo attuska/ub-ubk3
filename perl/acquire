@@ -1,0 +1,5 @@
+#!/usr/bin/env dl
+
+perl-${UB_VERSION}.tar.gz perl-${UB_VERSION}/
+	https://www.cpan.org/src/5.0/
+	ftp://ftp.funet.fi/pub/CPAN/src/5.0/

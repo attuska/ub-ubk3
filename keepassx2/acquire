@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+keepassx-${UB_VERSION}.tar.gz keepassx-1682ab9/
+     git+https://github.com/keepassx/keepassx.git@1682ab9

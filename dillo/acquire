@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+dillo_${UB_VERSION}.orig.tar.bz2 dillo-3.0.5/
+    http://ftp.debian.org/debian/pool/main/d/dillo/

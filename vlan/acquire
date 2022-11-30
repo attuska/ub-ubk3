@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+vlan_${UB_VERSION}.orig.tar.gz vlan/
+	http://ftp.debian.org/debian/pool/main/v/vlan/

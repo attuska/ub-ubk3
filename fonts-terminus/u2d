@@ -1,0 +1,2 @@
+dir=$(sflist terminus-font | sort -V | tail -n 1)
+sflist terminus-font $dir | parsever

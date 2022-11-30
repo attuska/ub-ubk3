@@ -1,0 +1,24 @@
+#!/bin/sh -eux
+
+# users:
+# microhttpd: systemd-jornal-{gateway,remote}
+# libcurl: systemd-jornal-upload
+# -Ddefault-dnssec=no: a dnssec experimental
+
+ub_compile \
+   	-Dsplit-usr=false \
+	-Dpamlibdir=/usr/lib/security \
+	-Dntp-servers=pool.ntp.org \
+	-Ddefault-dnssec=no \
+	-Dlink-udev-shared=true \
+	-Dlibcurl=false \
+	-Dmicrohttpd=false \
+	-Dcoredump=true \
+	-Dwheel-group=false \
+	-Dusers-gid=999 \
+	-Dsystem-uid-max=999 \
+	-Dsystem-gid-max=999 \
+    -Dfirstboot=false \
+	-Dldconfig=false \
+    -Dsysusers=false \
+    -Drpmmacrosdir=no

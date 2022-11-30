@@ -1,0 +1,5 @@
+libpurple-dev
+libxml2-dev
+libxslt
+python3-dev
+telepathy-glib-dev

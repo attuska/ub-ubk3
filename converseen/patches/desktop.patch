@@ -1,0 +1,21 @@
+diff -Nur orig/res/net.fasterland.converseen.desktop mod/res/net.fasterland.converseen.desktop
+--- orig/res/net.fasterland.converseen.desktop	2022-09-14 18:08:23.000000000 +0200
++++ mod/res/net.fasterland.converseen.desktop	2022-10-27 19:32:18.021799456 +0200
+@@ -1,15 +1,16 @@
+ [Desktop Entry]
+ Type=Application
+-Version=1.0
+ Name=Converseen
+ GenericName=Converseen
+ GenericName[en_GB]=Converseen
+ GenericName[fr]=Converseen
++GenericName[hu]=Converseen
+ GenericName[it]=Converseen
+ GenericName[ru]=Converseen
+ GenericName[ro]=Converseen
+ Comment=Batch image converter
+ Comment[fr]=Convertisseur d'images par lots
++Comment[hu]=Batch kép átalakító
+ Comment[it]=Convertitore batch di immagini
+ Comment[ru]=Пакетное преобразование изображений
+ Comment[ro]=Batch converter pentru imagini

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+master.zip ufraw-master/
+    https://github.com/sergiomb2/ufraw/archive/refs/heads/master.zip

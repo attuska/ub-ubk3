@@ -1,0 +1,3 @@
+#!/bin/sh -eux
+
+cp hsetroot hsr-outputs ${UB_INSTALLDIR}/usr/bin/

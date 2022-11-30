@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+epson-inkjet-printer-escpr_${UB_VERSION}.orig.tar.gz epson-inkjet-printer-escpr-${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/e/epson-inkjet-printer-escpr/

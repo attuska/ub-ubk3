@@ -1,0 +1,6 @@
+#!/bin/sh -eux
+
+cd src
+ub_install
+mv ../data/icon/trigger-64.png ${UB_INSTALLDIR}/usr/share/pixmaps/trigger.png
+rm -rf ${UB_INSTALLDIR}/usr/share/games/trigger-rally/icon

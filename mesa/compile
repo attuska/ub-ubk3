@@ -1,0 +1,26 @@
+#!/bin/sh -eux
+
+export CFLAGS+='-DNDEBUG'
+ub_compile \
+    -Dplatforms=x11,drm,wayland,surfaceless \
+    -Ddri3=true \
+    -Dgallium-extra-hud=true \
+    -Dgallium-vdpau=true \
+    -Dgallium-xvmc=true \
+    -Dgallium-va=true \
+    -Dgallium-xa=true \
+    -Dgallium-nine=true \
+    -Dgallium-opencl=icd \
+    -Dvulkan-drivers=amd,intel \
+    -Dvulkan-overlay-layer=true \
+    -Dgles1=false \
+    -Dgles2=true \
+	-Dgbm=true \
+	-Dglx=dri \
+    -Degl=true \
+	-Dglvnd=true \
+	-Dllvm=true \
+	-Dlibunwind=true \
+	-Dlmsensors=true \
+    -Dswr-arches=avx,avx2 \
+	-Dtools=all

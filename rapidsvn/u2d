@@ -1,0 +1,1 @@
+curl -k -s https://raw.githubusercontent.com/RapidSVN/RapidSVN/master/configure.ac | grep AC_INIT | sed "s/.* //" | sed s/\).*//

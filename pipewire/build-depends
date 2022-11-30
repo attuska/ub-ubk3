@@ -1,0 +1,8 @@
+bluez-dev
+ffmpeg-dev
+gst-plugins-base-dev
+jack-dev
+libv4l-dev
+sbc-dev
+vulkan-headers
+vulkan-loader-dev

@@ -1,0 +1,5 @@
+cmocka-dev
+glib-dev
+openssl-dev
+pcsc-lite-dev
+readline-dev

@@ -1,0 +1,11 @@
+diff -Nur orig/src/fonts/freetype.cpp mod/src/fonts/freetype.cpp
+--- orig/src/fonts/freetype.cpp	2021-02-06 11:41:39.000000000 +0100
++++ mod/src/fonts/freetype.cpp	2021-02-06 11:46:45.563474248 +0100
+@@ -49,6 +49,7 @@
+ #endif /* HAVE_CONFIG_H */
+ 
+ #include <cstdlib>
++#include <cmath>
+ #include <cassert>
+ 
+ #include "glue/freetype.h"

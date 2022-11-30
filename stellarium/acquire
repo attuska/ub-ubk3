@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz stellarium-${UB_VERSION}/
+    https://github.com/Stellarium/stellarium/archive/refs/tags/v1.1.tar.gz

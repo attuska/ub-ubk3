@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+Coin-${UB_VERSION}.tar.gz coin-Coin-${UB_VERSION}/
+	https://github.com/coin3d/coin/archive/

@@ -1,0 +1,15 @@
+sbcl
+maxima
+wxmaxima
+mathomatic
+euler
+socnetv
+librecad
+xephem
+phun
+gtkdatabox
+klavaro
+xplanet
+celestia
+calcmysky
+stellarium

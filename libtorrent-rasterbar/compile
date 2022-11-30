@@ -1,0 +1,8 @@
+#!/bin/sh -eux
+
+./autotool.sh
+
+ub_configure \
+    --enable-python-binding
+
+ub_make

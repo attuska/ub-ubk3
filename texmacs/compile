@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+ub_compile \
+    -DGUILECONFIG_EXECUTABLE=/usr/bin/guile-config1.8 \

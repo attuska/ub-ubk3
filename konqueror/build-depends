@@ -1,0 +1,16 @@
+extra-cmake-modules
+kactivities-dev
+karchive-dev
+kcmutils-dev
+kcoreaddons-dev
+kcrash-dev
+kdelibs4support-dev
+kdesu-dev
+kdoctools
+khtml-dev
+kparts-dev
+kwallet-dev
+kwidgetsaddons-dev
+qt5-dev
+qtwebengine-dev
+tidy-dev
