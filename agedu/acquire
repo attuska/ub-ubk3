@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-agedu-${UB_VERSION/~/.}.tar.gz agedu-${UB_VERSION/~/.}/
-	https://www.chiark.greenend.org.uk/~sgtatham/agedu/
+agedu_${UB_VERSION/~/.}.orig.tar.gz agedu-${UB_VERSION/~/.}/
+	http://ftp.debian.org/debian/pool/main/a/agedu/

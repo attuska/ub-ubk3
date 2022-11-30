@@ -1,1 +1,1 @@
-u2d https://github.com/rdiff-backup/rdiff-backup/tags/ v
+urllist https://github.com/rdiff-backup/rdiff-backup/tags/ | grep tar.gz | sed s/v// | sed s/\.tar.*// | sort -V | tail -n 1
