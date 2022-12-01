@@ -1,1 +1,2 @@
-sflist mined mined  | sed 's/mined *//g' | sed 's@%20@@g' | sort -V | tail -n 1
+#sflist mined mined  | sed 's/mined *//g' | sed 's@%20@@g' | sort -V | tail -n 1
+noupdate Újabban kínai karakterek kellenének neki
