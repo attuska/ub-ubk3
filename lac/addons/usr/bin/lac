@@ -16,5 +16,4 @@ if [ ! -d "$CONFIG_DIR" ]; then
     cp $LACDIR/bin/Lac bin/
 fi
 
-cd $CONFIG_DIR/bin
-./Lac
+Lac
