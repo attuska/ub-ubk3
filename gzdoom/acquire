@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-gzdoom-${UB_VERSION}.tar.gz gzdoom-f34d4d2/
-    git+https://github.com/coelckers/gzdoom.git@f34d4d2
+g${UB_VERSION}.tar.gz gzdoom-g${UB_VERSION}/
+  https://github.com/ZDoom/gzdoom/archive/refs/tags/
