@@ -7,8 +7,10 @@ bzflag
 calcmysky
 cinelerra
 chromium
+converseen
 doublecmd
 eduke32
+elinks
 fbpanel
 fet
 firefox
@@ -20,6 +22,7 @@ gnucash
 gnucash-doc
 gzdoom
 handbrake
+hugin
 icewm
 icewm-theme-silverxp
 icewm-theme-win95
@@ -30,6 +33,8 @@ klavaro
 kodi
 kodi-dev
 lac
+libpano13
+libpano13-dev
 librecad
 libxnvctrl-390
 libxnvctrl-470
@@ -46,6 +51,7 @@ opera
 papsystray
 pekwm
 pysolfc
+rawtherapee
 rclone
 showmysky
 schism
@@ -91,5 +97,6 @@ vice-doc
 wxmaxima
 xed
 xed-dev
+xfe
 xine-ui
 xsnow
