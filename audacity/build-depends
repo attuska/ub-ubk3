@@ -15,13 +15,14 @@ libsamplerate-dev
 libsndfile-dev
 libsoxr-dev
 libvorbis-dev
+mpg123-dev
 opus-dev
 portaudio-dev
 portmidi-dev
 soundtouch-dev
 sqlite-dev
 taglib-dev
-util-linux-dev
+wavpack-dev
 wxwidgets-dev
 zip
 zlib-dev

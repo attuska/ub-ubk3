@@ -1,0 +1,12 @@
+diff -Nur orig/CMakeLists.txt mod/CMakeLists.txt
+--- orig/CMakeLists.txt	2022-12-27 12:53:35.000000000 +0100
++++ mod/CMakeLists.txt	2023-01-11 14:48:42.810919429 +0100
+@@ -280,7 +280,7 @@
+ 
+ option(${_OPT}has_vst3
+     "Enable support for VST3 plug-ins in Audacity"
+-    On
++    Off
+ )
+ 
+ # Determine 32-bit or 64-bit target
