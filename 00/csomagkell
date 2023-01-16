@@ -39,6 +39,8 @@ libpano13-dev
 librecad
 libxnvctrl-390
 libxnvctrl-470
+lxde
+lxmusic
 libzmusic
 libzmusic-dev
 master-pdf-editor
@@ -100,4 +102,5 @@ xed
 xed-dev
 xfe
 xine-ui
+xmms2
 xsnow
