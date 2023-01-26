@@ -24,6 +24,7 @@ compiz
 compiz-dev
 double-conversion
 doublecmd
+eaglemode
 eduke32
 elinks
 engrampa
@@ -115,6 +116,7 @@ mate-user-guide
 mate-user-share
 mate-utils
 mate-utils-dev
+mc
 mkvtoolnix
 mousepad
 mozo
