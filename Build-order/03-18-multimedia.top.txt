@@ -43,6 +43,8 @@ quvi
 paman
 lingot
 paprefs
+python3-netifaces
+pyradio
 radiotray
 xine-ui
 subtitleeditor

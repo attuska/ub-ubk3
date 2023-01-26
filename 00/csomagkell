@@ -135,6 +135,8 @@ pluma
 pluma-dev
 pluma-plugins
 pysolfc
+python3-netifaces
+pyradio
 rawtherapee
 rclone
 ristretto
