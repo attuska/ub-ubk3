@@ -75,3 +75,4 @@ supertux
 tsc
 frogatto
 zaz
+crawl
