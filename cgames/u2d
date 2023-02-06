@@ -1,0 +1,1 @@
+urllist https://github.com/BR903/cgames/tags/ | grep cgames- | grep tar | sed s/\.tar\..*// | sed s/cgames-// | sort -V | tail -n 1

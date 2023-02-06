@@ -1,0 +1,10 @@
+#!/bin/sh -eux
+
+pixmapdir=${UB_INSTALLDIR}/usr/share/pixmaps
+desktopdir=${UB_INSTALLDIR}/usr/share/applications
+mkdir -p $pixmapdir
+mkdir -p $desktopdir
+cp bastet ${UB_INSTALLDIR}/usr/bin/
+cp bastet.6 ${UB_INSTALLDIR}/usr/share/man/man6/
+cp bastet.desktop $desktopdir/
+cp bastet.svg $pixmapdir/

@@ -1,0 +1,9 @@
+#!/bin/sh -eux
+
+ub_make datadir=$UB_INSTALLDIR/usr/share/csokoban mandir=$UB_INSTALLDIR/usr/share/man bindir=$UB_INSTALLDIR/usr/bin csokoban-install
+ub_make datadir=$UB_INSTALLDIR/usr/share/cmines   mandir=$UB_INSTALLDIR/usr/share/man bindir=$UB_INSTALLDIR/usr/bin cmines-install
+ub_make datadir=$UB_INSTALLDIR/usr/share/cblocks  mandir=$UB_INSTALLDIR/usr/share/man bindir=$UB_INSTALLDIR/usr/bin cblocks-install
+mkdir -p $UB_INSTALLDIR/usr/share/doc/Packages/csokoban
+mkdir -p $UB_INSTALLDIR/usr/share/doc/Packages/cblocks
+ln -s /usr/share/doc/Licenses/GPL-2 $UB_INSTALLDIR/usr/share/doc/Packages/csokoban/COPYING
+ln -s /usr/share/doc/Licenses/GPL-2 $UB_INSTALLDIR/usr/share/doc/Packages/cblocks/COPYING

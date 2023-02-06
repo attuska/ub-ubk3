@@ -1,0 +1,22 @@
+#!/bin/sh -eux
+
+ver="$(echo ${UB_VERSION} | sed "s/..$/.&/" | sed "s/....$/.&/")"
+#forrásmappák megadása
+forr="Steamband ${ver} SRC"
+forrsrcdir="$forr"/src
+forrlibdir="$forr"/lib
+#célkonyvtárak létrehozása, ha nincsenek
+desktopdir=${UB_INSTALLDIR}/usr/share/applications
+pixmapdir=${UB_INSTALLDIR}/usr/share/applications
+celdocdir=${UB_INSTALLDIR}/usr/share/doc/Packages/steamband
+cellibdir=${UB_INSTALLDIR}/usr/lib/steamband
+mkdir -p {$pixmapdir,$celdocdir,$cellibdir/{help,edit,pref,spoiler,file,xtra/font}}
+cp "$forrlibdir"/edit/*.txt "$cellibdir"/edit/
+cp "$forrlibdir"/file/*.txt "$cellibdir"/file/
+cp "$forrlibdir"/help/*.txt "$forrlibdir"/help/*.hlp "$cellibdir"/help/
+cp "$forrlibdir"/pref/* "$cellibdir"/pref/
+cp "$forrlibdir"/spoiler/* "$cellibdir"/spoiler/
+cp "$forrlibdir"/xtra/font/* "$cellibdir"/xtra/font/
+cp "$forr"/*.txt "$celdocdir"/
+cp "$forrsrcdir"/angband.ico "$cellibdir"/steamband.ico
+cp "$forrsrcdir"/steamband "${UB_INSTALLDIR}"/usr/bin

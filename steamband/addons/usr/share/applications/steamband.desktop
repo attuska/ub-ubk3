@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Steamband
+Name[hu]=Egy angband változat
+Comment=A dungeon exploration game
+Comment[hu]=Labirintus szerepjáték
+Exec=steamband
+Terminal=true
+Type=Application
+Icon=/usr/lib/steamband/steamband.ico
+Categories=Game;RolePlaying;

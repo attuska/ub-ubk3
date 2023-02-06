@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz ascii-invaders-${UB_VERSION}/
+	https://github.com/macdice/ascii-invaders/archive/refs/tags/

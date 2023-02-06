@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Cmines
+Name[hu]=Konzolos aknaszedő
+Comment=Hide mines clear
+Comment[hu]=Konzolos aknakereső
+Terminal=true
+Exec=cmines
+Icon=cmines
+Categories=Game;LogicGame;ConsoleOnly

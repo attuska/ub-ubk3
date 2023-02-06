@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+cgames-${UB_VERSION}.tar.gz cgames-cgames-${UB_VERSION}/
+	https://github.com/BR903/cgames/archive/refs/tags/

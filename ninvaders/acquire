@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz ninvaders-${UB_VERSION}/
+	https://github.com/sf-refugees/ninvaders/archive/refs/tags/

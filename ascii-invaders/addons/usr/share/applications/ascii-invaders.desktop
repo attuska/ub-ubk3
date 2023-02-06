@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ascii-invaders
+Name[hu]=Támadás az űrből
+GenericName=Arcade Game
+GenericName[hu]=ügyességi lövöldözős játék
+Exec=ascii_invaders
+Terminal=true
+Type=Application
+Icon=ascii_invaders
+Categories=Game;ArcadeGame;ConsoleOnly;

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+Steamband-${UB_VERSION}-SRC.zip .
+	http://angband.oook.cz/steamband/

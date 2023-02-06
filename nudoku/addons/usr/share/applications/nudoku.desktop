@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nudoku
+Name[hu]=Konzolos sudoku
+GenericName=sudoku game
+GenericName[hu]=Táblás logikai játék
+Exec=nudoku
+Terminal=true
+Type=Application
+Icon=nudoku
+Categories=Game;LogicGame;ConsoleOnly;

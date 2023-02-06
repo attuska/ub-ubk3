@@ -1,0 +1,1 @@
+urllist http://angband.oook.cz/variants.php?variant=steamband | grep SRC.zip | sed s/\-SRC.*// | sed s/.*\-// | sort -V | tail -n 1

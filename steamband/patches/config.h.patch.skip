@@ -1,0 +1,12 @@
+diff -Nur orig/config.h mod/config.h
+--- orig/config.h	2005-07-09 04:00:20.000000000 +0200
++++ mod/config.h	2023-01-30 18:29:20.000000000 +0100
+@@ -351,7 +351,7 @@
+  * or "/usr/games/lib/angband/", or "/pkg/angband/lib".
+  */
+ #ifndef DEFAULT_PATH
+-# define DEFAULT_PATH "./lib/"
++# define DEFAULT_PATH "/usr/lib/steamband/"
+ #endif /* DEFAULT_PATH */
+ 
+ 

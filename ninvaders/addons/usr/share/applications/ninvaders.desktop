@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ninvaders
+Name[hu]=Támadás az űrből (ncurses)
+GenericName=Arcade Game
+GenericName[hu]=ügyességi lövöldözős játék
+Exec=ninvaders
+Terminal=true
+Type=Application
+Icon=ninvaders
+Categories=Game;ArcadeGame;ConsoleOnly;

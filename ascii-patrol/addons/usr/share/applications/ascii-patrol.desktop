@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ascii-Patrol
+Name[hu]=Harc holdjáróval
+GenericName=Arcade Game
+GenericName[hu]=ügyességi lövöldözős játék
+Exec=ascii-patrol
+Terminal=true
+Type=Application
+Icon=ascii-patrol
+Categories=Game;ArcadeGame;ConsoleOnly;

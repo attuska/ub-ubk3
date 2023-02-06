@@ -1,0 +1,9 @@
+libice-dev
+libx11-dev
+libxaw-dev
+libxext-dev
+libxi-dev
+libxmu-dev
+libxt-dev
+ncurses-dev
+slang-dev

@@ -1,11 +1,14 @@
 abe
 alephone
 alephone-marathon
+ascii-invaders
+ascii-patrol
 atril
 atril-dev
 audacity
 avidemux
 avidemux-dev
+bastet
 brisk-menu
 bzflag
 caja
@@ -18,6 +21,9 @@ caja-extension-engrampa
 caja-extensions
 caja-extensions-dev
 calcmysky
+cblocks
+cmines
+csokoban
 cinelerra
 chromium
 converseen
@@ -120,10 +126,13 @@ mate-utils
 mate-utils-dev
 mc
 mkvtoolnix
+moon-buggy
 mousepad
 mozo
 nano
 nnn
+nudoku
+ninvaders
 nvidia-390
 nvidia-470
 nvidia.470-optix
@@ -147,6 +156,7 @@ schism
 scite
 seamonkey
 simutrans
+steamband
 tea
 thunar
 thunar-archive-plugin

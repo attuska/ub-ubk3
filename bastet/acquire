@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz bastet-${UB_VERSION}/
+	https://github.com/fph/bastet/archive/refs/tags/

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Csokoban
+Name[hu]=Konzolos sokoban
+Comment=Sokoban clone
+Comment[hu]=Sokoban féle játék
+Terminal=true
+Exec=csokoban
+Icon=csokoban
+Categories=Game;LogicGame;ConsoleOnly

@@ -1,0 +1,24 @@
+diff -Nur orig/cblocks/Makefile.in mod/cblocks/Makefile.in
+--- orig/cblocks/Makefile.in	2020-01-28 06:49:41.000000000 +0100
++++ mod/cblocks/Makefile.in	2023-02-01 14:26:36.880357968 +0100
+@@ -35,7 +35,7 @@
+ 	install -c ./cblocks $(bindir)/cblocks
+ 	install -d $(mandir)/man6
+ 	install -c ./cblocks.6 $(mandir)/man6/cblocks.6
+-	install -d -g games $(datadir)
++	install -d -g users $(datadir)
+ 	install -c ./series/* $(datadir)/
+ 
+ movelist.o: movelist.c gen.h movelist.h
+diff -Nur orig/csokoban/Makefile.in mod/csokoban/Makefile.in
+--- orig/csokoban/Makefile.in	2020-01-28 06:49:41.000000000 +0100
++++ mod/csokoban/Makefile.in	2023-02-01 14:26:55.256424788 +0100
+@@ -34,7 +34,7 @@
+ 	install -c ./csokoban $(bindir)/csokoban
+ 	install -d $(mandir)/man6
+ 	install -c ./csokoban.6 $(mandir)/man6/csokoban.6
+-	install -d -g games $(datadir)
++	install -d -g users $(datadir)
+ 	install -c ./series/* $(datadir)/
+ 
+ movelist.o: movelist.c gen.h movelist.h

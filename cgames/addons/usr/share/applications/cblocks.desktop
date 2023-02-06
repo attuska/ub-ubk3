@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Cblocks
+Name[hu]=Konzolos tologató
+Comment=Mastermind clone
+Comment[hu]=Tologató játék
+Terminal=true
+Exec=cblocks
+Icon=cblocks
+Categories=Game;LogicGame;ConsoleOnly

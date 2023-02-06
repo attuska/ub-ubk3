@@ -1,3 +1,10 @@
+ascii-invaders
+ascii-patrol
+bastet
+cgames
+ninvaders
+nudoku
+steamband
 words
 bsd-games
 atris-sounds

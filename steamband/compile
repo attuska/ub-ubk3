@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+ver="$(echo ${UB_VERSION} | sed "s/..$/.&/" | sed "s/....$/.&/")"
+forrdir="Steamband ${ver} SRC"/src
+cd "$forrdir"
+patch -i $UB_SRCDIR/patches/config.h.patch.skip
+ub_make -f Makefile.std

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz ascii-patrol-${UB_VERSION}/
+	https://github.com/msokalski/ascii-patrol/archive/refs/tags/
