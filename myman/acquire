@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+myman-${UB_VERSION}.tar.gz myman-${UB_VERSION}/
+	https://download.sourceforge.net/myman/

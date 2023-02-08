@@ -1,0 +1,1 @@
+sflist myman myman | grep myman- | sed s/myman-// | sort -V | tail -n 1

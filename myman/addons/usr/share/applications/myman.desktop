@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=myman
+Name[hu]=pacman klón (ncurses)
+GenericName=Myman
+GenericName[hu]=Pacman klón terminálban
+Exec=myman
+Terminal=true
+Type=Application
+Icon=myman
+Categories=Game;ArcadeGame;ConsoleOnly;

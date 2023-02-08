@@ -1,0 +1,37 @@
+diff -Nur orig/brick.h mod/brick.h
+--- orig/brick.h	2015-08-24 14:06:35.000000000 +0200
++++ mod/brick.h	2023-02-08 09:42:08.712972720 +0100
+@@ -8,7 +8,7 @@
+ char check_brick(char [BOARD_HEIGHT][BOARD_WIDTH], char [4][4], const unsigned char, const unsigned char);
+ void draw_to_board(char [BOARD_HEIGHT][BOARD_WIDTH], char [4][4], const char, const unsigned char, const unsigned char);
+ 
+-char brick_digit[7][4][4];
++extern char brick_digit[7][4][4];
+ 
+ #endif
+ 
+diff -Nur orig/ctris.h mod/ctris.h
+--- orig/ctris.h	2015-08-24 14:06:35.000000000 +0200
++++ mod/ctris.h	2023-02-08 09:42:31.325285989 +0100
+@@ -44,8 +44,8 @@
+ unsigned char get_rand(const unsigned char);
+ int main(int, char *[]);
+ 
+-char game_state, old_style_keys, counterclockwise_rotation, hide_cursor_workaround, highscore_file_path[256], default_name[40];
+-
++extern char game_state, old_style_keys, counterclockwise_rotation, hide_cursor_workaround, highscore_file_path[256], default_name[40];
++extern 
+ unsigned long rseed;
+ 
+ #endif
+diff -Nur orig/Makefile mod/Makefile
+--- orig/Makefile	2015-08-24 14:06:35.000000000 +0200
++++ mod/Makefile	2023-02-08 10:09:41.620138216 +0100
+@@ -1,6 +1,6 @@
+ 
+ MANDIR=$(DESTDIR)/usr/share/man/man6/
+-BINDIR=$(DESTDIR)/usr/games/
++BINDIR=$(DESTDIR)/usr/bin/
+ 
+ CC=gcc
+ MKDIR=mkdir -p

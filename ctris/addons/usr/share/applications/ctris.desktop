@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ctris
+Name[hu]=Tetris klón (ncurses)
+GenericName=Tetris
+GenericName[hu]=Tetris klón terminálban
+Exec=ctris
+Terminal=true
+Type=Application
+Icon=ctris
+Categories=Game;BlocksGame;ConsoleOnly;

@@ -5,6 +5,8 @@ cgames
 ninvaders
 nudoku
 steamband
+ctris
+myman
 words
 bsd-games
 atris-sounds
