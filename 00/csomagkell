@@ -22,6 +22,8 @@ caja-extensions
 caja-extensions-dev
 calcmysky
 cblocks
+cjson
+cjson-dev
 cmines
 csokoban
 cinelerra
@@ -41,6 +43,7 @@ elinks
 engrampa
 eom
 eom-dev
+etlegacy
 fbpanel
 fet
 firefox
@@ -142,6 +145,7 @@ ninvaders
 nvidia-390
 nvidia-470
 nvidia.470-optix
+openttd
 opera
 orage
 papsystray
@@ -208,6 +212,7 @@ vdr-softhddevice
 vdr-wirbelscan
 vdr-xine
 vdr-xineliboutput
+wesnoth
 vice
 vice-doc
 workrave
