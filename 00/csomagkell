@@ -31,6 +31,8 @@ compiz
 compiz-dev
 crawl
 ctris
+dmenu
+dwm
 double-conversion
 doublecmd
 eaglemode
@@ -54,6 +56,8 @@ gzdoom
 handbrake
 hatari
 hugin
+i3lock
+i3-wm
 icewm
 icewm-theme-silverxp
 icewm-theme-win95
@@ -158,6 +162,7 @@ schism
 scite
 seamonkey
 simutrans
+st
 steamband
 tea
 thunar
