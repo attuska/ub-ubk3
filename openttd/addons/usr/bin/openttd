@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export DIRNAME="/usr/share/games/openttd"
+export SYSTEM_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+
+cd "$DIRNAME"
+
+export LD_LIBRARY_PATH="$DIRNAME/lib:$LD_LIBRARY_PATH"
+"$DIRNAME/openttd" "$@"

@@ -1,6 +1,14 @@
 #!/bin/sh -eux
 
-ub_install
+gamedir=${UB_INSTALLDIR}/usr/share/games/megaglest
 
-cd data
-ub_install
+mkdir -p ${gamedir}
+mkdir -p ${UB_INSTALLDIR}/usr/share/{applications,pixmaps}
+#rm -r lib/vlc
+mv data/docs/*.txt .
+rm -r data/docs data/others
+rm data/CMakeLists.txt
+rm *.sh *.ico *.bmp
+cp -r * data/* ${gamedir}/
+mv *.desktop ${UB_INSTALLDIR}/usr/share/applications
+mv *.png ${UB_INSTALLDIR}/usr/share/pixmaps/

@@ -2,6 +2,7 @@ ascii-invaders
 ascii-patrol
 bastet
 cgames
+edgar
 ninvaders
 nudoku
 steamband

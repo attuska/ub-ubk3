@@ -1,3 +1,5 @@
 #!/bin/sh -eux
 
-ub_install
+mkdir -p ${UB_INSTALLDIR}/usr/share/games
+cp -r openttd/share ${UB_INSTALLDIR}/usr
+mv openttd ${UB_INSTALLDIR}/usr/share/games/

@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-openttd-${UB_VERSION}-source.tar.xz openttd-${UB_VERSION}/
+openttd-${UB_VERSION}-linux-generic-amd64.tar.xz openttd-${UB_VERSION}-linux-generic-amd64/ :openttd
 	https://cdn.openttd.org/openttd-releases/${UB_VERSION}/

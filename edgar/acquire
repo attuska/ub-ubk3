@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+edgar-${UB_VERSION}-1.x86_64.deb .
+      https://github.com/riksweeney/edgar/releases/download/${UB_VERSION}/edgar-1.36-1.x86_64.deb

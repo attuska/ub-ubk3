@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export DIRNAME="/usr/share/games/megaglest"
+export SYSTEM_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+cd "$DIRNAME"
+export LD_LIBRARY_PATH="$DIRNAME/lib:$LD_LIBRARY_PATH"
+"$DIRNAME/megaglest_editor" "$@"

@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
-${UB_VERSION}.tar.gz megaglest-source-${UB_VERSION}/
-      https://github.com/MegaGlest/megaglest-source/archive/
+megaglest-binary-linux-x86_64-${UB_VERSION}.tar.xz .
+      https://github.com/MegaGlest/megaglest-source/releases/download/${UB_VERSION}/
 
-${UB_VERSION}.zip megaglest-data-${UB_VERSION}/ :data
-      https://github.com/MegaGlest/megaglest-data/archive/
+megaglest-data-${UB_VERSION}.tar.xz megaglest-${UB_VERSION}/ :data
+      https://github.com/MegaGlest/megaglest-data/releases/download/${UB_VERSION}/

@@ -1,0 +1,11 @@
+#!/bin/sh -eux
+
+sharedir=${UB_INSTALLDIR}/usr/share
+bindir=${UB_INSTALLDIR}/usr/bin
+mkdir usr/share/doc/Packages
+mv usr/share/doc/edgar usr/share/doc/Packages/
+
+cp usr/games/edgar $bindir/
+rm -rf usr/share/appdata
+
+cp -r usr ${UB_INSTALLDIR}/

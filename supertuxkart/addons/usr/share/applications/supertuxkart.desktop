@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SuperTuxKart
+Icon=supertuxkart
+GenericName[hu]=Egy 3D-s, nyílt forráskódú gokartverseny játék
+GenericName=A 3D open-source kart racing game
+Exec=supertuxkart
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Game;ArcadeGame;
