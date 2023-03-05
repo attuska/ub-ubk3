@@ -15,7 +15,7 @@ rm -f $UB_INSTALLDIR/usr/lib/etlegacy/COPYING.txt
 # systemd
 mkdir -p $UB_INSTALLDIR/etc/xdg/etlegacy/etmain
 cp misc/etlegacy.conf $UB_INSTALLDIR/etc/xdg/etlegacy/
-cp misc/etlegacy-x86_64.service $UB_INSTALLDIR/usr/lib/systemd/system/
+cp misc/etlegacy.service $UB_INSTALLDIR/usr/lib/systemd/system/
 
 # config linkek
 mv $UB_INSTALLDIR/usr/lib/etlegacy/etmain/*.cfg $UB_INSTALLDIR/etc/xdg/etlegacy/etmain/
@@ -30,8 +30,8 @@ ln -s /etc/xdg/etlegacy/etmain $UB_INSTALLDIR/var/lib/etlegacy-server/
 
 # kibontás etlegacy fájlok eljhelyezése
 
-tar -x -f 537
-rm 537
+tar -x -f 407
+rm 407
 
 cd etlegacy*
 mkdir -p $UB_INSTALLDIR/usr/lib/etlegacy/legacy
@@ -40,6 +40,9 @@ cp legacy/qagame.mp.*.so $UB_INSTALLDIR/usr/lib/etlegacy/legacy/
 
 # Geiop helyadatok
 ln -s /usr/share/GeoIP/GeoIP.dat $UB_INSTALLDIR/usr/lib/etlegacy/legacy
+
+# desktop igazítás
+sed /PrefersNonDefaultGPU/d -i $UB_INSTALLDIR/usr/share/applications/com.etlegacy.ETLegacy.desktop
 
 # data
 cd -
