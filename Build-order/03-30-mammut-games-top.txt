@@ -50,7 +50,6 @@ quake2-demo
 sauerbraten
 smokinguns
 openmw
-cjson
 etlegacy
 chessx
 dreamchess-music
